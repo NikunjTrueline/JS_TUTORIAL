@@ -1,0 +1,68 @@
+JavaScript Fundamentals
+
+------------
+Variables  |
+------------
+
+Variables
+Most of the time, a JavaScript application needs to work with information. Here are two examples:
+
+An online shop – the information might include goods being sold and a shopping cart.
+A chat application – the information might include users, messages, and much more.
+
+Variables are used to store this information.
+
+A variable is a “named storage” for data. We can use variables to store goodies, visitors, and other data.
+
+To create a variable in JavaScript, use the let keyword.
+
+let message;
+
+Now, we can put some data into it by using the assignment operator =:
+
+message = 'Hello';
+
+Variable naming
+There are two limitations on variable names in JavaScript:
+
+The name must contain only letters, digits, or the symbols $ and _.
+The first character must not be a digit.
+
+Examples of valid names:
+let userName;
+let test123;
+
+Examples of incorrect variable names:
+let 1a; // cannot start with a digit
+let my-name; // hyphens '-' aren't allowed in the name
+
+When the name contains multiple words, camelCase is commonly used. That is: words go one after another, each word except first starting with a capital letter: myVeryLongName.
+
+What’s interesting – the dollar sign '$' and the underscore '_' can also be used in names. They are regular symbols, just like letters, without any special meaning.
+
+These names are valid:
+
+let $ = 1; // declared a variable with the name "$"
+let _ = 2; // and now a variable with the name "_"
+
+alert($ + _); // 3
+
+
+Case matters.
+Variables named apple and APPLE are two different variable
+
+Constants:
+
+To declare a constant (unchanging) variable, use const instead of let:
+Variables declared using const are called “constants”. They cannot be reassigned. An attempt to do so would cause an error:
+
+const myBirthday = '18.04.1982';
+
+
+Summary:
+
+We can declare variables to store data by using the var, let, or const keywords.
+
+let – is a modern variable declaration.
+var – is an old-school variable declaration. Normally we don’t use it at all, but we’ll cover subtle differences from let in the chapter The old "var", just in case you need them.
+const – is like let, but the value of the variable can’t be changed.

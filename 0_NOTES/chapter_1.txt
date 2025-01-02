@@ -1,0 +1,74 @@
+An Introduction to JavaScript.
+
+JavaScript is the world's most popular programming language.
+JavaScript is the programming language of the Web.
+JavaScript is easy to learn.
+
+--------------------------------------------------------
+
+JavaScript was initially created to “make web pages alive”.
+
+The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads.
+Scripts are provided and executed as plain text. They don’t need special preparation or compilation to run.
+In this aspect, JavaScript is very different from another language called Java.
+
+--------------------------------------------------------
+
+Why Study JavaScript?
+JavaScript is one of the 3 languages all web developers must learn:
+
+1. HTML to define the content of web pages
+2. CSS to specify the layout of web pages
+3. JavaScript to program the behavior of web pages
+
+Today, JavaScript can execute not only in the browser, but also on the server, or actually on any device that has a special program called the JavaScript engine.
+
+The browser has an embedded engine sometimes called a “JavaScript virtual machine”.
+
+Different engines have different “codenames”. For example:
+
+V8 – in Chrome, Opera and Edge.
+SpiderMonkey – in Firefox.
+
+--------------------------------------------------------
+
+What can in-browser JavaScript do?
+
+In-browser JavaScript can do everything related to webpage manipulation, interaction with the user, and the webserver.
+
+For instance, in-browser JavaScript is able to:
+
+Add new HTML to the webpage, change the existing content, modify styles.
+React to user actions, run on mouse clicks, pointer movements, key presses.
+Send requests over the network to remote servers, download and upload files.
+Get and set cookies, ask questions to the visitor, show messages.
+Remember the data on the client-side (“local storage”).
+
+--------------------------------------------------------
+
+What CAN NOT in-browser JavaScript do?
+
+JavaScript’s abilities in the browser are limited to protect the user’s safety. The aim is to prevent an evil webpage from accessing private information or harming the user’s data.
+
+JavaScript was initially created as a browser-only language, but it is now used in many other environments as well.
+Today, JavaScript has a unique position as the most widely-adopted browser language, fully integrated with HTML/CSS.
+
+In-browser JavaScript is very powerful, but there are some things it cannot do for security and technical reasons. Here’s a simple list:
+
+1. Access Local Files Directly
+JavaScript cannot directly read, write, or delete files on your computer without your permission. It can only access files you upload via an input (e.g., <input type="file">).
+
+2. Access Operating System Functions
+It cannot interact directly with your operating system to install software, change settings, or access low-level hardware features.
+
+3. Talk to Other Websites Without Permission
+JavaScript cannot access content from other websites unless the website explicitly allows it.
+
+4. Stay Active When You Leave the Website
+JavaScript cannot keep running indefinitely when you close the browser tab or navigate away from the page.
+
+5. Modify Browser or Computer Settings
+It cannot change browser settings like homepage, cookies settings, or default search engine.
+
+
+

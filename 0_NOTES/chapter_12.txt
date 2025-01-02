@@ -1,0 +1,45 @@
+JavaScript Fundamentals
+
+------------
+Function   |
+------------
+
+Quite often we need to perform a similar action in many places of the script.
+
+For example, we need to show a nice-looking message when a visitor logs in, logs out and maybe somewhere else.
+
+Functions are the main “building blocks” of the program. They allow the code to be called many times without repetition.
+
+We’ve already seen examples of built-in functions, like alert(message), prompt(message, default) and confirm(question). But we can create functions of our own as well.
+
+
+Function Declaration:
+To create a function we can use a function declaration.
+
+It looks like this:
+
+function showMessage() {
+  alert( 'Hello everyone!' );
+}
+
+The function keyword goes first, then goes the name of the function, then a list of parameters between the parentheses (comma-separated, empty in the example above, we’ll see examples later) and finally the code of the function, also named “the function body”, between curly braces.
+
+function name(parameter1, parameter2, ... parameterN) {
+ // body
+}
+
+Our new function can be called by its name: showMessage().
+For instance:
+
+function showMessage() {
+  alert( 'Hello everyone!' );
+}
+
+showMessage();
+showMessage();
+
+1. Function is a value
+2. Callback functions
+3. Function Expression vs Function Declaration
+4. Arrow functions
+5. Multiline arrow functions

@@ -1,0 +1,36 @@
+JavaScript Fundamentals
+
+----------------
+Code structure  |
+----------------
+
+
+Statements :
+
+Statements are syntax constructs and commands that perform actions.
+
+We’ve already seen a statement, alert('Hello, world!'), which shows the message “Hello, world!”.
+
+We can have as many statements in our code as we want. Statements can be separated with a semicolon.
+
+
+Comments :
+
+As time goes on, programs become more and more complex. It becomes necessary to add comments which describe what the code does and why.
+Comments can be put into any place of a script. They don’t affect its execution because the engine simply ignores them.
+
+
+One-line comments start with two forward slash characters //.
+
+The rest of the line is a comment. It may occupy a full line of its own or follow a statement.
+
+Like this:
+// This comment occupies a line of its own
+
+
+Multiline comments start with a forward slash and an asterisk /* and end with an asterisk and a forward slash */.
+
+Like this:
+/* An example with two messages.
+This is a multiline comment.
+*/

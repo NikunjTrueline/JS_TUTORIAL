@@ -1,0 +1,87 @@
+Advanced working with functions.
+
+
+-----------
+Recursion |
+-----------
+
+Recursion is a programming pattern that is useful in situations when a task can be naturally split into several tasks of the same kind, but simpler.
+
+When a function solves a task, in the process it can call many other functions. A partial case of this is when a function calls itself. That’s called recursion.
+
+if i want to make power function then i have two approch
+
+1. Iterative thinking: the for loop:
+2. Recursive thinking: simplify the task and call self:
+
+
+
+
+------------------------------------
+Rest parameters and spread syntax  |
+------------------------------------
+
+Rest parameters ...
+A function can be called with any number of arguments, no matter how it is defined.
+
+The rest of the parameters can be included in the function definition by using three dots ... followed by the name of the array that will contain them. The dots literally mean “gather the remaining parameters into an array”.
+
+The rest parameters must be at the end.
+
+
+spread parameters ...
+
+for use merge mutiple element in single element.
+
+
+
+--------------------------
+Variable scope, closure  |
+--------------------------
+
+JavaScript is a very function-oriented language. It gives us a lot of freedom. A function can be created at any moment, passed as an argument to another function, and then called from a totally different place of code later.
+
+
+Code blocks
+If a variable is declared inside a code block {...}, it’s only visible inside that block.
+
+Nested functions
+A function is called “nested” when it is created inside another function.
+It is easily possible to do this with JavaScript.
+
+Closure
+There is a general programming term “closure”, that developers generally should know.
+A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment).
+
+
+
+
+---------------
+Global object |
+---------------
+
+
+The global object provides variables and functions that are available anywhere. By default, those that are built into the language or the environment.
+
+In a browser it is named window, for Node.js it is global, for other environments it may have another name.
+
+window Object.
+
+
+
+----------------------------------
+ NFE (named function expression) |
+----------------------------------
+
+Named Function Expression, or NFE, is a term for Function Expressions that have a name.
+
+
+
+-----------------------------
+setTimeout and setInterval  |
+-----------------------------
+
+
+setTimeout allows us to run a function once after the interval of time.
+
+setInterval allows us to run a function repeatedly, starting after the interval of time, then repeating continuously at that interval.

@@ -1,0 +1,149 @@
+Datatypes
+
+---------
+Numbers |
+---------
+
+In modern JavaScript, there are two types of numbers:
+
+Regular numbers in JavaScript are stored in 64-bit format IEEE-754, also known as “double precision floating point numbers”. These are numbers that we’re using most of the time, and we’ll talk about them in this chapter.
+
+BigInt numbers represent integers of arbitrary length. They are sometimes needed because a regular integer number can’t safely exceed (253-1) or be less than -(253-1), as we mentioned earlier in the chapter Data types. As bigints are used in a few special areas, we devote them to a special chapter BigInt.
+
+
+More ways to write a number
+
+Imagine we need to write 1 billion.
+let billion = 1000000000;
+
+We also can use underscore _ as the separator:
+let billion = 1_000_000_000;
+
+Here the underscore _ plays the role of the “syntactic sugar”, it makes the number more readable. The JavaScript engine simply ignores _ between digits, so it’s exactly the same one billion as above.
+
+In real life though, we try to avoid writing long sequences of zeroes. We’re too lazy for that. We’ll try to write something like "1bn" for a billion or "7.3bn" for 7 billion 300 million. The same is true for most large numbers.
+
+In JavaScript, we can shorten a number by appending the letter "e" to it and specifying the zeroes count:
+
+let billion = 1e9;  // 1 billion, literally: 1 and 9 zeroes
+
+alert( 7.3e9 );  // 7.3 billions (same as 7300000000 or 7_300_000_000)
+
+
+
+--------
+Strings |
+--------
+
+
+In JavaScript, the textual data is stored as strings. There is no separate type for a single character.
+
+Strings can be enclosed within either single quotes, double quotes or backticks:
+
+let single = 'single-quoted';
+let double = "double-quoted";
+let backticks = `backticks`;
+
+Another advantage of using backticks is that they allow a string to span multiple lines:
+
+let guestList = `Guests:
+ * John
+ * Pete
+ * Mary
+`;
+
+
+
+--------
+Array  |
+--------
+
+Objects allow you to store keyed collections of values. That’s fine.
+
+But quite often we find that we need an ordered collection, where we have a 1st, a 2nd, a 3rd element and so on. For example, we need that to store a list of something: users, goods, HTML elements etc.
+
+It is not convenient to use an object here, because it provides no methods to manage the order of elements. We can’t insert a new property “between” the existing ones. Objects are just not meant for such use.
+
+There are two syntaxes for creating an empty array:
+let arr = new Array();
+let arr = [];
+
+Array elements are numbered, starting with zero.
+
+We can get an element by its number in square brackets:
+
+let fruits = ["Apple", "Orange", "Plum"];
+
+alert( fruits[0] ); // Apple
+alert( fruits[1] ); // Orange
+alert( fruits[2] ); // Plum
+
+We can replace an element.
+Or add a new one to the array.
+The total count of the elements in the array is its length.
+
+An array can store elements of any type.
+
+
+Loops.
+
+Print array with loops.
+- with for loop
+- with for...of
+- with for...in
+
+Multidimensional arrays.
+
+
+
+Array methods.
+
+Arrays provide a lot of methods. To make things easier, in this chapter, they are split into groups.
+
+Add/remove items.
+arr.push(...items) – adds items to the end,
+arr.pop() – extracts an item from the end,
+arr.shift() – extracts an item from the beginning,
+arr.unshift(...items) – adds items to the beginning.
+
+splice.
+remove element with particular index and you can also replace element.
+
+slice 
+It returns a new array copying to it all items from index start to end (not including end).
+
+concat
+The method arr.concat creates a new array that includes values from other arrays and additional items.
+
+
+Searching in array
+
+indexOf , lastIndexOf and includes
+find and findIndex , findLastIndex
+filter 
+
+
+Transform an array
+
+map
+The arr.map method is one of the most useful and often used.
+It calls the function for each element of the array and returns the array of results.
+
+reverse
+The method arr.reverse reverses the order of elements in arr.
+
+split and join
+
+reduce.
+
+
+
+
+-------------------------
+Json Method , toJson()  |
+-------------------------
+
+Let’s say we have a complex object, and we would like to convert it into a string, to send it over a network, or just to output it for logging purposes.
+
+-   jsonEncode
+-   jsonDecode

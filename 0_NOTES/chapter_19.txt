@@ -1,0 +1,36 @@
+Error Handling.
+
+ when you feel that an error may occure for any kind of reason , make it habit to write such code in try..catch block.
+
+ Error occure reason is like network issue , runtime error,logical issues,etc...
+
+
+ It works like this:
+
+1. First, the code in try {...} is executed.
+
+2. If there were no errors, then catch (err) is ignored: the execution reaches the end of try and goes on, skipping catch.
+
+3. If an error occurs, then the try execution is stopped, and control flows to the beginning of catch (err). The err variable (we can use any name for it) will contain an error object with details about what happened.
+
+
+ try{
+
+    .. code
+ }catch(error)
+ {
+    print this error or alternative message
+ }
+
+
+try{
+
+}catch(){
+
+}finally{
+
+}
+ 
+Throw... keyword
+
+use for handle custom error.

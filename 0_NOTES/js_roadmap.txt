@@ -1,0 +1,88 @@
+RoadMap For JS.
+
+Introduction
+    introduction to js
+    code editors
+    developer console
+
+JavaScript Fundamentals
+    print "hello world"
+    code structure
+    variables 
+    Datatypes
+    interaction : alert,confirm,prompt
+    type Conversion
+    operators
+    conditional programming
+    loops
+    functions
+
+Objects basics 
+
+DataTypes
+    numbers
+    String
+    array 
+    arrayMethod
+    map and set
+    object
+    date and time
+    json method and tojson
+
+Working with Functions
+    recursion
+    rest and spread parameters
+    variable scope and closure
+    global Object
+    NFE (named function expression)
+    setTimeout and setInterval
+
+
+oops 
+    prototype
+    class
+    object 
+    constructor
+    inheritance
+    super 
+    getter-setter
+
+
+Error Handling
+    try..catch
+    try..catch..finally
+    throw (keyword)
+
+
+Promises , async...await
+    Introduction: callback
+    callback hell
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+

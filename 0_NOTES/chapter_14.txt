@@ -1,0 +1,145 @@
+Objects
+
+Objects
+As we know from the chapter Data types, there are eight data types in JavaScript. Seven of them are called “primitive”, because their values contain only a single thing (be it a string or a number or whatever).
+
+In contrast, objects are used to store keyed collections of various data and more complex entities. In JavaScript, objects penetrate almost every aspect of the language. So we must understand them first before going in-depth anywhere else.
+
+An object can be created with figure brackets {…} with an optional list of properties. A property is a “key: value” pair, where key is a string (also called a “property name”), and value can be anything.
+
+Functions that are stored in object properties are called “methods”.
+
+-----------------------------------  X ----------------------------------
+
+Literals and properties
+
+let user = {     // an object
+  name: "John",  // by key "name" store value "John"
+  age: 30        // by key "age" store value 30
+};
+
+The value can be of any type. Let’s add a boolean one:
+
+user.isAdmin = true;
+
+To remove a property, we can use the delete operator:
+
+delete user.age;
+
+
+Square brackets
+
+let user = {};
+
+// set
+user["likes birds"] = true;
+
+
+-----------------------------------  X  ----------------------------------
+
+
+Property existence test, “in” operator :
+
+A notable feature of objects in JavaScript, compared to many other languages, is that it’s possible to access any property. There will be no error if the property doesn’t exist!
+Reading a non-existing property just returns undefined. So we can easily test whether the property exists:
+
+here’s also a special operator "in" for that.
+
+The syntax is:
+"key" in object
+
+let user = { name: "John", age: 30 };
+
+alert( "age" in user ); // true, user.age exists
+alert( "email" in user ); // false, user.email doesn't exist
+
+
+-----------------------------------  X ----------------------------------
+
+
+The "for..in" loop :
+
+To walk over all keys of an object, there exists a special form of the loop: for..in. This is a completely different thing from the for(;;) construct that we studied before.
+
+for (key in object) {
+  // executes the body for each key among object properties
+}
+
+
+-----------------------------------  X ----------------------------------
+
+
+Object references and copying : 
+
+yes , we can copy object. but when we copy object at these time two variable references 
+one object.
+
+
+-----------------------------------  X ----------------------------------
+
+Comparison by reference :
+
+Two objects are equal only if they are the same object.
+
+For instance, here a and b reference the same object, thus they are equal:
+let a = {};
+let b = a;
+
+And here two independent objects are not equal, even though they look alike (both are empty):
+let a = {};
+let b = {};
+
+-----------------------------------  X ----------------------------------
+
+Nested object 
+
+
+let profile = {
+name : "nikunj",
+email:  "nikunj123@gmail.com",
+contact : 9925875396,
+bank_details : {
+    bank_name : "HDFC bank",
+    account_type : "Saving",
+    ifsc : "HDFC000123"
+}
+}
+
+-----------------------------------  X ----------------------------------
+
+Object methods and  "this"
+
+Objects are usually created to represent entities of the real world, like users, orders and so on:
+
+let user = {
+  name: "John",
+  age: 30
+};
+
+user.sayHi = function() {
+  alert("Hello!");
+};
+
+user.sayHi();
+
+A function that is a property of an object is called its method.
+
+
+-----------------------------------  X ----------------------------------
+
+“this” in methods
+
+To access the object, a method can use the this keyword.
+
+let user = {
+  name: "John",
+  age: 30,
+
+  sayHi() {
+    // "this" is the "current object"
+    alert(this.name);
+  }
+
+};
+
+user.sayHi();
