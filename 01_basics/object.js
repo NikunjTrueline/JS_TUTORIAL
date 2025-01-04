@@ -145,3 +145,5 @@ codesTest.check();
 // non-existing property problem
 
 console.log(codesTest.address); // undefine
+
+

@@ -18,6 +18,7 @@ console.log("The sum of two value is", sum(10, 20));
 console.log(test());
 
 function minimun(a, b, c, d, e) {
+  
   if (a < b && a < c && a < d && a < e) {
     return a;
   } else if (b < a && b < c && b < d && b < e) {

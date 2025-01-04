@@ -37,6 +37,27 @@ console.log(c > d && c < d);
 console.log(c > d || c < d);
 console.log(!c < d);
 
+// typeof operator
+
+let type1 = 10;
+let type2;
+let type3 = null;
+
+console.log(typeof type1);
+console.log(typeof type2);
+console.log(typeof type3);
+
+// nullish coalescing operator
+// if value null or undefine than after operator value automatclly assigend in variable.
+
+let val1;
+
+// val1 = 10 ?? 15;
+// val1 = null ?? 78;
+val1 = undefined ?? 95;
+
+console.log(val1);
+
 // comments
 
 // single line comments
