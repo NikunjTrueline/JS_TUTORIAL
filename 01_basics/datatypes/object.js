@@ -31,8 +31,6 @@ console.log(user["email"])
 
 console.log(user)
 
-
-
 // merge object 
 
 let obj1 = {"a":1,"b":2,"c":3,"d":4}
@@ -40,7 +38,4 @@ let obj2 = {"e":1,"f":2,"g":3,"h":4}
 
 const obj3 = Object.assign(obj1,obj2)
 console.log(obj3)
-
-
-
 

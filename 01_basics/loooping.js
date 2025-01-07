@@ -73,3 +73,7 @@ console.log("value is ",object[key])
 for (let marks in obj) {
   console.log(obj[marks]);
 }
+
+
+// for of loop
+
