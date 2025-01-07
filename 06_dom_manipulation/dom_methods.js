@@ -27,7 +27,7 @@ console.log(document.getElementById("google").tagName);
 
 // inner text for know content and update element content
 console.log(a.innerText);
-a.innerText = "Updated Heading";
+//a.innerText = "Updated Heading";
 
 let heading3 = document.getElementById("h3");
 heading3.innerText = "I Am Fine. What About You??";

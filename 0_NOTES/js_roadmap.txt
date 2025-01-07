@@ -57,7 +57,12 @@ Error Handling
 Promises , async...await
     Introduction: callback
     callback hell
-    
+    Promises
+    then..catch
+    promises chaining 
+    async and await 
+
+
 
 
 

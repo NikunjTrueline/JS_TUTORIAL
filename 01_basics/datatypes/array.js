@@ -139,4 +139,4 @@ let newValuesArray = values
   .filter((element) => element > 50);
 
 console.log(newValuesArray);
-
+ 

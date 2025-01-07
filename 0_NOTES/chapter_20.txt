@@ -3,5 +3,24 @@ callback:
 A callback is  function passed as an argument in another function.
 
 
+callback Hell OR Pyramid of Doom :
+
+Callback hell in JavaScript is a situation where multiple callback functions are nested within each other, making the code difficult to read, maintain, and debug.
+
+Ex.
+
+getData(10, () => {
+  getData(20, () => {
+    getData(30, () => {
+      getData(40);
+    });
+  });
+});
+
+But the question is why we should know callback hell and what is purpose of learning its?
+- so basically when we wan't to do some asyncronus task at that time 
+  nested callback help us.
+- but nested callback sometime create difficulty to understand call readibility so we should avoid this.
+
 
 
