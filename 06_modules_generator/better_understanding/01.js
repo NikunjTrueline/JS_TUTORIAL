@@ -1,4 +1,5 @@
-import { superUser } from "./main1.js";
+import { superUser } from "./model.js";
 
 superUser.name = "Nikunj@microsoft";
 superUser.age = 34;
+

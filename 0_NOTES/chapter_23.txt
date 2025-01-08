@@ -10,3 +10,6 @@ export keyword labels variables and functions that should be accessible from out
 import :
 import allows the import of functionality from other modules.
 
+
+
+As our programm grows bigger , it may contain many lines of code. instead of putting everything in single file , you can use modules to seperate files according to their functions. This make our code organized and easier to maintain. 

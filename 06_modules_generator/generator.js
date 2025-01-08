@@ -4,7 +4,7 @@
 
 function* listOfItemPrice() {
     yield 120;
-    yield 780;s
+    yield 780;
     return 999;
 }
 

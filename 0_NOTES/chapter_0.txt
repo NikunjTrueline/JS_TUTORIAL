@@ -1,4 +1,4 @@
-RoadMap For JS.
+RoadMap (BluePrint) For JS.
 
 Introduction
     introduction to js
@@ -63,6 +63,10 @@ Promises , async...await
     async and await 
 
 
+Generator & modules 
+    Generator
+    modules introduction
+    import..export
 
 
 
