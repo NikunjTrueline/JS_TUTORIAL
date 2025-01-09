@@ -1,15 +1,17 @@
-Modules :
+Generators.
 
-A module is just a file. One script is one module. As simple as that.
+Regular functions return only one, single value (or nothing).
 
-Modules can load each other and use special directives export and import to interchange functionality, call functions of one module from another one.
+Generators can return (“yield”) multiple values, one after another, on-demand. They work great with iterables, allowing to create data streams with ease.
 
-export :
-export keyword labels variables and functions that should be accessible from outside the current module.
+Generator functions:
+To create a generator, we need a special syntax construct: function*, so-called “generator function”.
 
-import :
-import allows the import of functionality from other modules.
+Generator functions behave differently from regular ones. When such function is called, it doesn’t run its code. Instead it returns a special object, called “generator object”, to manage the execution.
 
+The main method of a generator is next(). When called, it runs the execution until the nearest statement. Then the function execution pauses, and the yielded value is returned to the outer code.
 
+The result of next() is always an object with two properties:
 
-As our programm grows bigger , it may contain many lines of code. instead of putting everything in single file , you can use modules to seperate files according to their functions. This make our code organized and easier to maintain. 
+value: the yielded value.
+done: true if the function code has finished, otherwise false.
