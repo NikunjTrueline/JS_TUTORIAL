@@ -1,0 +1,63 @@
+* {
+  margin: 3px;
+  padding: 3px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  height: 100px;
+  width: 500px;
+  background-color: rgb(157, 200, 201);
+  color: black;
+  /* border: 0.2px solid black; */
+  border-radius: 2px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#practice {
+  color: black;
+}
+
+.rect-con{
+    height: 100px;
+    width: 300px;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  border-radius: 5px solid white;
+}
+
+th, td {
+  background-color: #96D4D4;
+  padding: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.unique{
+    display: flex;
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(143, 149, 133);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,5 +1,9 @@
 RoadMap (BluePrint) For JS.
 
+PART - 1
+The Javascript Language.
+
+
 Introduction
     introduction to js
     code editors
@@ -67,6 +71,17 @@ Generator & modules
     Generator
     modules introduction
     import..export
+
+
+
+PART - 2
+Browser: Document, Events, Interfaces
+
+
+Document
+    Browser environment, specs
+    DOM Tree
+    
 
 
 

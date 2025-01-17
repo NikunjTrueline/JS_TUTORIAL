@@ -1,0 +1,50 @@
+Browser environment, specs.
+
+
+The JavaScript language was initially created for web browsers. Since then, it has evolved into a language with many uses and platforms.
+
+A platform may be a browser, or a web-server or another host, or even a “smart” coffee machine if it can run JavaScript. Each of these provides platform-specific functionality. The JavaScript specification calls that a host environment.
+
+A host environment provides its own objects and functions in addition to the language core.
+
+
+1. First Object.
+Window Object ( root object )
+
+Window  is a global object for JavaScript code.
+it is represents the “browser window” and provides methods to control it.
+
+The window object represents an open window in a browser. It is browser’s object (not JavaScript’s) & is automatically created by browser.
+It is a global object with lots of properties & methods.
+
+Ex..
+
+function sayHi() {
+  alert("Hello");
+}
+
+// global functions are methods of the global object:
+window.sayHi();
+
+
+
+2. second object 
+DOM (Document Object Model)
+
+The Document Object Model, or DOM for short, represents all page content as objects that can be modified.
+
+The document object is the main “entry point” to the page. We can change or create anything on the page using it.
+
+EX..
+
+// change the background color to red
+document.body.style.background = "red";
+
+// change it back after 1 second
+setTimeout(() => document.body.style.background = "", 1000);
+
+
+3. Third object
+BOM (Browser Object Model)
+
+The Browser Object Model (BOM) represents additional objects provided by the browser (host environment) for working with everything except the document.

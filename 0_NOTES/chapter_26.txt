@@ -1,0 +1,34 @@
+DOM tree
+
+According to the Document Object Model (DOM), every HTML tag is an object. Nested tags are “children” of the enclosing one. The text inside a tag is an object as well.
+
+All these objects are accessible using JavaScript, and we can use them to modify the page.
+
+For example, document.body is the object representing the <body> tag.
+
+document.body.style.background = 'red';
+
+
+- understand structure of dom node.
+
+<html>
+    <head>
+    <title> ....... </title>
+    </head>
+    <body>
+    .............
+    </body>
+</html>
+
+- tag , elements , comments , white space all are consider in dom as object.
+
+
+Everything in HTML, even comments, becomes a part of the DOM.
+
+
+There are 12 node types. In practice we usually work with 4 of them:
+
+1. document – the “entry point” into DOM.
+2. element nodes – HTML-tags, the tree building blocks.
+3. text nodes – contain text.
+4. comments – sometimes we can put information there, it won’t be shown, but JS can read it from the DOM.
