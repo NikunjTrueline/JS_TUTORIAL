@@ -71,4 +71,3 @@ JavaScript cannot keep running indefinitely when you close the browser tab or na
 It cannot change browser settings like homepage, cookies settings, or default search engine.
 
 
-
