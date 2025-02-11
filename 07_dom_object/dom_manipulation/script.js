@@ -71,3 +71,4 @@ listwork.forEach((e) => {
   e.style.padding = "10px";
 });
 
+// DOM - DOCUMENT OBJECT MODEL.
