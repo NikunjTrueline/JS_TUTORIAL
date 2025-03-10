@@ -12,7 +12,7 @@ console.log(d);
 
 let map = {
   username: "luxuryVelocity",
-  useremail: "luxuryvelocity2024@gmail.com",
+  useremail: "luxuryvelocity@gmail.com",
   dob: "13-03-2000",
   numberofuser: 130,
   contact: BigInt("9925867545"),

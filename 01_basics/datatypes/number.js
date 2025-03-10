@@ -1,7 +1,6 @@
 let billion = 1000000000;
 
 // We can also use underscore _ as the separator:
-
 // other ways to define 1 million.
 
 let million = 1e6;
@@ -12,11 +11,10 @@ let ex1 = 1e3        // 1000
 let ex2 = 123e4       // 1230000
 let ex3 = 1.23e4        // 12300
 
-
 console.log(4.875e4==48750)  
+
 // bcz after point 3 digit so this three digit replace with zero 
 // so  4.875e4 means 4.8750000 is equal to 48750
-
 
 // for generate random number.
 console.log(Math.random())
@@ -57,3 +55,4 @@ let check = 5676
 let bigNumber = 9786867577657546n
 
 console.log(bigNumber)
+

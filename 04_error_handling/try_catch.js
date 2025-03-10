@@ -2,6 +2,8 @@ function hackedWifi() {
   console.log("MyFriend your wifi is hacked....");
 }
 
+
+
 function process() {
   console.log(yourname);
   console.log("Your data is in processing...");
@@ -42,3 +44,4 @@ try {
 // {
 //   throw new Error("My custom error")
 // }
+
