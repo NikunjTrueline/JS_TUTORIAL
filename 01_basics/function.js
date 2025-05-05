@@ -57,7 +57,7 @@ const values = [20, 40, 100, 8000];
 
 console.log(forArray(values));
 
-// single parameter but we can pass so many arguments
+// single parameter but we can pass many arguments
 // rest operator (...)
 
 function testfunction(...item1) {

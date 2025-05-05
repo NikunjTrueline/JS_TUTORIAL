@@ -31,12 +31,12 @@ class RailwayReservation {
 }
 
 // create object for class
-const rohan = new RailwayReservation();
+const passenger1 = new RailwayReservation();
 
 // call class method through the object
-rohan.fill("Rohan", 523231);
-rohan.submit();
-rohan.cancle();
+passenger1.fill("Rohan", 523231);
+passenger1.submit();
+passenger1.cancle();
 
 
 

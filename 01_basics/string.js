@@ -6,7 +6,7 @@ let firstMeetup = `${a}!! MyFriend, ${b}??`;
 console.log(firstMeetup);
 
 // single quotes string
-let single = "Instagram";
+let single = 'Instagram';
 
 //double quotes
 let double = "LuxuryVelocity";

@@ -15,9 +15,9 @@ if (login == 'Employee') {
 */
 
 let message;
-let login = "Employee";
+let login = "Director";
 
 
-(login=="Employee") ?  message = "Hello" : (login == "Director") ? message = "greetings" : (login == "") ? message = "no login" : message = "";
+(login=="Employee") ?  message = "Hello" : (login == "Director") ? message = "greetings" : (login == "") ? message = "no login" : message = "none";
 
 console.log(message)

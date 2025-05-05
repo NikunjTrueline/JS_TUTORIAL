@@ -18,5 +18,6 @@ bmw.details("BMW", 1200000);
 
 const g_Wagon = new mercidies();
 g_Wagon.luxurious();
+g_Wagon.details("G-Wagon", 1500000);
 
 

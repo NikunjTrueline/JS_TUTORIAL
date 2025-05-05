@@ -30,7 +30,7 @@ bigint - for integer numbers of arbitrary length.
 string - for strings. A string may have zero or more characters, there’s no separate 
 single-character type.
 
-boolean for true/false.
+boolean - for true/false.
 
 null - for unknown values – a standalone type that has a single value null.
 

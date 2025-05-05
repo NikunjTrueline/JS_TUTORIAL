@@ -28,7 +28,8 @@ if(userLoggedIn && debitCard) console.log("User is loggedIn"),console.log("user 
 // const falsy = undefine
 const falsy = 0n
 
-if(falsy)console.log("not execute")
+if(falsy)
+  console.log("not execute")
 
   // how can i check empty object 
 
