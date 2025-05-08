@@ -14,6 +14,8 @@ if (login == 'Employee') {
 
 */
 
+
+
 let message;
 let login = "Director";
 
@@ -21,3 +23,4 @@ let login = "Director";
 (login=="Employee") ?  message = "Hello" : (login == "Director") ? message = "greetings" : (login == "") ? message = "no login" : message = "none";
 
 console.log(message)
+
