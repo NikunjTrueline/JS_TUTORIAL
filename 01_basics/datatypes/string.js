@@ -4,12 +4,14 @@ let ex3 = `Hello Friends`
 
 console.log(ex1,ex2,ex3)
 
+
 let language = `
 * c
 * c++   
 * js
 * react
 `;
+
 
 console.log(language)
 

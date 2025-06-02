@@ -68,7 +68,7 @@ let listwork = document.querySelectorAll(".items");
 listwork.forEach((e) => {
   e.style.fontsize = "20px";
   e.style.color = "purple";
-  e.style.padding = "10px";
+  e.style.padding = "3px";
 });
 
 // DOM - DOCUMENT OBJECT MODEL.

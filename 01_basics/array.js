@@ -55,7 +55,7 @@ console.log(test);
 console.log(typeof example);
 console.log(typeof test);
 
-for (let value of array) {
+for (let value of test) {
   console.log(value);
 }
 

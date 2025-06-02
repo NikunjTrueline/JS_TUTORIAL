@@ -10,14 +10,16 @@ console.log(user.name);
 console.log(user.age);
 console.log(user.function1());
 
-// add key value pair (property)
+// add key value pair (property) method 1
 user.isadmin = true;
 
 // remove key value pair
 delete user.age;
 
+// add key value pair (property) method 2
 user["email"] = "abc@gmail.com";
 
+// remove key value pair
 delete user["email"];
 
 console.log(user);
@@ -119,7 +121,7 @@ console.log(obj3 === obj4); // false
 let profile = {
   name: "nikunj",
   email: "nikunj123@gmail.com",
-  contact: 9925875396,
+  contact: 9925875397,
   bank_details: {
     bank_name: "HDFC bank",
     account_type: "Saving",
