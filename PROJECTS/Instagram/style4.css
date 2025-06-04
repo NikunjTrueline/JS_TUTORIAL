@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(198, 198, 227);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    height: 400px;
+    width: 250px;
+    background-color: rgb(103, 103, 198);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 3px 6px 9px rgba(0.1, 0.2, 0.3, 0.4);
+}
+
+#storiya {
+    height: 100px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 10px;
+    white-space: nowrap;   
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* border: 0.1px solid #231f1f; */ 
+}
+
+#storiya::-webkit-scrollbar{
+    display: none;
+}
+
+.story {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin: 5px;
+border: 0.5px solid rebeccapurple;
+}
+
+.story img{
+height: 100px;
+width: 100px;
+object-fit: cover;
+object-position: center;
+}
+
+#full-screen{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: none;
+    background-size: cover;
+    background-position: center;
+}
