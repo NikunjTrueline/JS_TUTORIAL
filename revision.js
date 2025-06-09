@@ -23,7 +23,7 @@
 
 // for (let ele in items) {
 //     items[ele].style.backgroundColor = colorList[index];
-    
+
 //     items[ele].style.padding = "3px";
 //     if (colorList[index] == "yellow") {
 //         items[ele].style.color = "black";
@@ -34,19 +34,38 @@
 //     index++;
 // }
 
+// function forCheckForm()
+// {
+//     let x = document.forms["LoggedInForm"]["Email"].value;
 
-function forCheckForm()
-{
-    let x = document.forms["LoggedInForm"]["Email"].value;
+//     if(x == "")
+//     {
+//         console.log("Please enter valid email")
+//     }
+// }
 
-    if(x == "")
-    {
-        console.log("Please enter valid email")
-    }
-}
+// let y = document.forms["LoggedInForm"]["submit"].value
 
-let y = document.forms["LoggedInForm"]["submit"].value
+// let demo = new Promise(function (res, rej) {
+//     let n = Math.floor(Math.random() * 10);
 
+//     if (n <= 5) {
+//         return res();
+//     } else {
+//         return rej();
+//     }
+// });
 
+// demo.then(() => {
+//     console.log("promiss resolve");
+// }).catch(() => {
+//     console.log("promiss reject");
+// });
 
+let array = [1, 2, 4, 54, 5, true, function () {}, {}, [233, 43, 5]];
 
+let newarray = array.filter((ele) => {
+    return ele;
+});
+
+console.log(newarray);
