@@ -42,10 +42,3 @@ const calculator = (num1, num2, operation) => {
             return "Invalid operation";
     }
 };
-
-// कैलकुलेटर का उपयोग 
-console.log("जोड़: " + calculator(10, 5, "+")); // 15
-console.log("घटाव: " + calculator(10, 5, "-")); // 5
-console.log("गुणा: " + calculator(10, 5, "*")); // 50
-console.log("भाग: " + calculator(10, 5, "/")); // 2
-

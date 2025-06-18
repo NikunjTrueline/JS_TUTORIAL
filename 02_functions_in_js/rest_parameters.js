@@ -1,13 +1,13 @@
 // simple function
 
-function sum(a, b) {
+function sum(a, b) {   
     console.log(a + b);
 }
 
 sum(10, 20); // 30
 sum(10, 20, 30); // 30 bcz third arguments not consider
 
-// rest parameter function
+// rest parameter function  
 
 function sumWithRest(a, b, ...c) {
     let twoValue = a + b;
